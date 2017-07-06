@@ -1,17 +1,28 @@
 {
   "favorites": [
     {
-      "band": "DOG",
-      "poster": "DOG",
-      "rank": "DOG",
+      "title": "Temple Of The Dog",
+      "poster": "https://i.scdn.co/image/52673b67c5d959ec45c14baca83a0682f8e9d6c9",
+      "songId": "63HdXCn0Xz1pRZc2GzMw7k",
+      "band": "band",
+      "rank": "1",
       "id": 1
     },
     {
-      "name": "doggy",
-      "band": "dog",
-      "poster": "dog",
-      "rank": "dog",
+      "title": "Working Class Dog",
+      "poster": "https://i.scdn.co/image/4e70fa9bd1cfd100f5d703628acff46b6c1113bb",
+      "songId": "4KKFWTePKtgb6mOwFDqxYa",
+      "band": "dogband",
+      "rank": "2",
       "id": 2
+    },
+    {
+      "title": "More Cowbell",
+      "poster": "https://i.scdn.co/image/1bf3ac8488eaedf658a4ce9ca86883ca8023aca2",
+      "songId": "6zMH7vnsAxldAIrWqD7LC4",
+      "band": "cowbell",
+      "rank": "3",
+      "id": 3
     }
   ]
 }

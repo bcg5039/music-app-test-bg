@@ -11,7 +11,7 @@ const Home = function(props) {
       <ImageListItem
         key={fav.id}
         id={fav.id}
-        title={fav.name}
+        title={fav.title}
         image={fav.poster}
         link={<LinkButton to={`/show/${fav.id}`}>Details</LinkButton>}
       />

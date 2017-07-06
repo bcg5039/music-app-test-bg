@@ -69,6 +69,7 @@ function mapActionsToProps(dispatch) {
         poster: song.poster,
         songId: song.id
       }
+      console.log('THIS IS MY FAV', fav)
       dispatch({ type: SET_FAVORITE, payload: fav })
       dispatch({ type: CLEAR_RESULTS })
       history.push('/new')

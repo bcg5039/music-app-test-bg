@@ -9,12 +9,16 @@ import { SET_FAVORITE } from '../constants'
 
 class Show extends React.Component {
   componentDidMount() {
-    //console.log('favorites: ', this.props.favorites)
-    //console.log('id value is: ', this.props.match.params.id)
-    const findSongPredFunction = propEq('id', this.props.match.params.id)
-    //console.log('favorites here', this.props.favorites)
+    console.log('FAVORITES: ', this.props.favorites)
+    console.log('ID VALUE: ', Number(this.props.match.params.id))
+    const findSongPredFunction = propEq(
+      'id',
+      Number(this.props.match.params.id)
+    )
+    console.log('last check for favorites', this.props.favorites)
     const foundSong = find(findSongPredFunction, this.props.favorites)
-    //console.log('did i find the movie?   ', foundSong)
+    console.log('FOUNDSONG?   ', foundSong)
+
     this.props.dispatch({ type: SET_FAVORITE, payload: foundSong })
   }
   render() {
@@ -26,7 +30,7 @@ class Show extends React.Component {
           <div className="mw6 center mt2 tc">
             <MusicCard
               image={this.props.favorite.poster}
-              title={this.props.favorite.name}
+              title={this.props.favorite.title}
             />
           </div>
           <div className="mw6 tc center">
