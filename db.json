@@ -1,3 +1,17 @@
 {
-  "favorites": []
+  "favorites": [
+    {
+      "band": "DOG",
+      "poster": "DOG",
+      "rank": "DOG",
+      "id": 1
+    },
+    {
+      "name": "doggy",
+      "band": "dog",
+      "poster": "dog",
+      "rank": "dog",
+      "id": 2
+    }
+  ]
 }

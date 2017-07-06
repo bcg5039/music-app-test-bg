@@ -1,11 +1,6 @@
 import React from 'react'
 import Header from '../containers/header'
-import {
-  Button,
-  List,
-  ImageListItem,
-  SimpleListItem
-} from 'jrs-react-components'
+import { List, ImageListItem, SimpleListItem } from 'jrs-react-components'
 import { map } from 'ramda'
 import LinkButton from '../components/link-button'
 import { connect } from 'react-redux'

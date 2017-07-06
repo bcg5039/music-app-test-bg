@@ -3,7 +3,7 @@ import MusicCard from '../components/music-card'
 import Header from '../containers/header'
 import BigButton from '../components/big-button'
 import { Link } from 'react-router-dom'
-import { find, propEq, head } from 'ramda'
+import { find, propEq } from 'ramda'
 import { connect } from 'react-redux'
 import { SET_FAVORITE } from '../constants'
 
